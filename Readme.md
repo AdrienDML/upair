@@ -17,3 +17,4 @@ assert!(storage.contains(UPair::new(2, 1));
 - `Ord, PartialOrd`.
 - `From<(T, T)>`.
 - `From<[T; 2]>`.
+- `IntoIterator`.

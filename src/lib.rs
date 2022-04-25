@@ -95,3 +95,13 @@ impl<T> From<[T; 2]> for UPair<T> where T: Ord{
         Self::new(a, b)
     }
 }
+
+impl<T> IntoIterator for UPair<T> {
+    type Item = T;
+
+    type IntoIter = std::array::IntoIter<T, 2>;
+
+    fn into_iter(self) -> Self::IntoIter {
+        [self.a, self.b].into_iter()
+    }
+}
