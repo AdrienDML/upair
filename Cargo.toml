@@ -4,6 +4,7 @@ author = "AdrienDML"
 license = "MIT"
 categories = ["data-structures"]
 version = "0.1.0"
+description = "Unordered pair data structure."
 edition = "2021"
 keywords = ["unordered", "pair"]
 readme = "Readme.md"
