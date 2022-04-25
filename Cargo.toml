@@ -7,7 +7,7 @@ version = "0.1.0"
 edition = "2021"
 keywords = ["unordered", "pair"]
 readme = "Readme.md"
+repository = "https://github.com/AdrienDML/upair/"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
